@@ -1,3 +1,4 @@
+// Playwright CI test
 import { test, expect } from '@playwright/test';
 
 test('open google homepage', async ({ page }) => {
