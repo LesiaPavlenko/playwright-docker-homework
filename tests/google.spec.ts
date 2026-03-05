@@ -1,4 +1,8 @@
-// Playwright CI test
+// trigger CI on push to main branch and on pull request to main branch
+// run tests in parallel on all browsers
+// run tests in headless mode
+// set viewport to 1280x720
+
 import { test, expect } from '@playwright/test';
 
 test('open google homepage', async ({ page }) => {
